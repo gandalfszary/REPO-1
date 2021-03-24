@@ -49,25 +49,25 @@
  }
  
  a:link {
-     color: rgb(255, 255, 255);
+     /* color: rgb(255, 255, 255); */
      background-color: transparent;
      text-decoration: none;
  }
  
  a:visited {
-     color: #CFC8C0;
+     /* color: #ffffff; */
      background-color: transparent;
      text-decoration: none;
  }
  
  a:hover {
-     color: #CFC8C0;
+     /* color: #ffffff; */
      background-color: transparent;
      text-decoration: underline;
  }
  
  a:active {
-     color: #CFC8C0;
+     /* color: #ffffff; */
      background-color: transparent;
      text-decoration: underline;
  }
@@ -81,9 +81,22 @@
      font-family: Raleway-Regular;
      size: 14px;
      padding: 0px 10px;
+     color: white;
  }
  
  .font_2--grey {
      color: #CFC8C0;
-     font-size: 40px;
+     font-size: 14px;
+ }
+ 
+ .nav__button--callnow {
+     background: transparent;
+     height: 40px;
+     line-height: 10px;
+     border: 1px solid white;
+     width: 120px;
+     padding: 0px;
+     font-size: 14px;
+     color: #fff;
+     margin-left: 20px;
  }
