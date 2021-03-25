@@ -82,7 +82,7 @@
      
      .font_2 {
          font-family: Raleway-Regular;
-         size: 14px;
+         font-size: 14px;
          padding: 0px 10px;
          color: white;
      }
@@ -115,7 +115,6 @@
      
      .section__text__header--big {
          font-family: raleway-semibold, raleway, sans-serif;
-         margin: 0px;
          padding: 0px;
          color: white;
          font-size: 60px;
@@ -143,4 +142,22 @@
          left: 0;
          bottom: 0;
          background: rgba(0, 0, 0, 0.7);
+     }
+     
+     .section2 {
+         background-color: #262626;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+     }
+     
+     .section2__2elements__top {
+         display: flex;
+         flex-direction: row;
+         width: 90%;
+         height: 700px;
+         line-height: 10px;
+         border: 1px solid white;
+         background-color: #262626;
+         margin-top: 100px;
      }
